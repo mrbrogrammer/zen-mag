@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+3 = "*"
+requests = "~=1.2"
+djangorestframework = "*"
+django-cors-headers = "*"
+
+[dev-packages]
+ipdb = "*"
+
+[requires]
+python_version = "3.9"
